@@ -1,0 +1,10 @@
+ <div class="container mt-5">
+    <div class="row">
+      <div class="col-6">
+         <app-studentform (emitstdObj)="getStd($event)"></app-studentform>
+      </div>
+      <div class="col-6">
+        <app-studenttable [studenttable]="stdArr"></app-studenttable>
+      </div>
+    </div>
+  </div>

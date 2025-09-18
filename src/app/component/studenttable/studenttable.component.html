@@ -1,0 +1,20 @@
+
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Post</th>
+            <th>Age</th>
+            <th>Contact</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let std of studenttable">
+            <td>{{std.name}}</td>
+            <td>{{std.post}}</td>
+            <td>{{std.age}}</td>
+            <td>{{std.contact}}</td>
+        </tr>
+    </tbody>
+</table>
